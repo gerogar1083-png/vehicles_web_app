@@ -1,46 +1,26 @@
 # vehicles_web_app
-Vehicle Sales Data Visualization App
+Aplicación de visualización de datos de ventas de vehículos
 
-This project is a simple and interactive web application built with Streamlit, designed to visualize a dataset of used vehicle sales in the United States. The app allows users to explore the data by generating dynamic charts with just a few clicks.
+Aplicación web sencilla creada con Streamlit para explorar un conjunto de datos de vehículos usados. Permite generar visualizaciones interactivas con solo marcar casillas.
 
-Features
+Características
 
-Histogram: Visualizes the distribution of vehicle mileage (odometer) using an interactive Plotly histogram.
+Histograma del odómetro (odometer)
 
-Scatter Plot: Displays the relationship between mileage (odometer) and price (price) with a Plotly scatter plot.
+Gráfico de dispersión entre odómetro y precio (price)
 
-Interactive UI: Users can enable or disable each visualization through checkboxes.
+Interfaz interactiva basada en casillas de verificación
 
-Instant Feedback: Charts update immediately based on user interaction.
+Gráficos dinámicos creados con Plotly
 
-Tech Stack
+Tecnologías
 
 Python
 
-Pandas for data loading and preprocessing
+Pandas
 
-Plotly Express for interactive visualizations
+Plotly Express
 
-Streamlit for the web interface
+Streamlit
 
-How It Works
-
-The application loads the dataset vehicles_us.csv.
-
-Users select one or both checkboxes:
-
-Build Histogram
-
-Build Scatter Plot
-
-When selected, the app generates:
-
-A histogram of vehicle odometer values
-
-A scatter plot showing odometer vs. price
-
-The results are displayed as interactive Plotly charts directly in the browser.
-
-Purpose
-
-This project serves as a beginner-friendly example of combining data analysis, interactive visualizations, and web app development using Streamlit. It's ideal for learning or demonstrating quick data exploration workflows.
+Proyecto ideal como ejemplo básico de análisis y visualización de datos en una aplicación web.
